@@ -8,10 +8,10 @@ import { ReceiptsModule } from './module/receipts/receipts.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '',
       port: 3306,
-      username: 'root',
-      password: 'Hnh00900',
+      username: '',
+      password: '',
       database: 'TP2_ip',
       synchronize: true,
       logging: false,
